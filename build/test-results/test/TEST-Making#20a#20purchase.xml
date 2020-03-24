@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Making a purchase" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-24T02:34:09" hostname="DESKTOP-C32S6TM" time="86.422">
+  <properties/>
+  <testcase name="Creating access for a new user" classname="Making a purchase" time="46.78"/>
+  <testcase name="Buying a new product" classname="Making a purchase" time="39.639"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 23, 2020 9:34:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 3400
+Only local connections are allowed.
+mar 23, 2020 9:34:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>
