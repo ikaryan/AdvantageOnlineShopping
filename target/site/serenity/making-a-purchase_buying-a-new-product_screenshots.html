@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">"Project Advantage Online Shopping"</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_making_a_purchase.html">Making A Purchase</a></span>
+                > <span class="truncate-60"><a
+                    href="making-a-purchase_buying-a-new-product.html">Buying a new product </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-03-2020 21:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Making A Purchase </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I as user
+I need to buy a product in Advantage Online Shopping website
+and check the payment has been made successfully
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Buying a new product
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="79d264f5d12d5c4cd3978ff642877034a19048fe7553075b6eaf3fcd662cfcf7.png" title="Given an active user needs access to buy a new product" width="1280"/>
+                <img src="30b1f41dd359e96ca684c2d6d9a542bde5b4ece59397222679f5201ff0e4e013.png" title="Given an active user needs access to buy a new product" width="1280"/>
+                <img src="79d264f5d12d5c4cd3978ff642877034a19048fe7553075b6eaf3fcd662cfcf7.png" title="Shooper opens the https://www.advantageonlineshopping.com/#/" width="1280"/>
+                <img src="558a8fd7bb2b1bd800c6d5016050d9021280cffdd09bdde3de215b538a54945a.png" title="Shooper opens the https://www.advantageonlineshopping.com/#/" width="1280"/>
+                <img src="558a8fd7bb2b1bd800c6d5016050d9021280cffdd09bdde3de215b538a54945a.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="a671227b1b56023e2a913bbba3638d50641706f426e31e7bd8273891d96134b5.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="add22770661f75dcc0285f43d943776ed7bf64f669f58dd7352ae2b03aa5f319.png" title="Shooper enters 'Charles' into user name login" width="1280"/>
+                <img src="8c5607dc300b4f68b2ea701bf97b48aed37e7ee7f8abe2837dd3bc931b72f1ba.png" title="Shooper enters 'Charles' into user name login" width="1280"/>
+                <img src="231cff9832fde54985a9db06507a9e7ca2d5e2187ec1bc633c139c2399d696b5.png" title="Shooper enters 'Karlox123++' into user password login" width="1280"/>
+                <img src="ab674d777f22a7e3b6910d308f94bb7ff4d065f3af9b9e17606eefe19fdedef0.png" title="Shooper enters 'Karlox123++' into user password login" width="1280"/>
+                <img src="68f07a937a73962f6d0a1af397bc9e3302726f6d1a859772f85a3b84dd4801bb.png" title="Shooper clicks on user sign in button" width="1280"/>
+                <img src="01a71b3b236b419b67d3b7ae0d75a710dbacfa471157227ab933b7be2416e5cc.png" title="Shooper clicks on user sign in button" width="1280"/>
+                <img src="172d6319c6a5ad50cf2f67d203d308741d3ad67f162019fa5c81c7f01d2d9287.png" title="When the product to buy is selected
+| productName | displayType | operatingSysType | processorType | colorType | productSelected | quantity |
+| laptops | 2 | 1 | 8 | C3C3C3 | 4 | 2 |" width="1280"/>
+                <img src="1a015dc920af8413202ffb16ffdf738b131c94271eaffbf35968de0955b10771.png" title="When the product to buy is selected
+| productName | displayType | operatingSysType | processorType | colorType | productSelected | quantity |
+| laptops | 2 | 1 | 8 | C3C3C3 | 4 | 2 |" width="1280"/>
+                <img src="172d6319c6a5ad50cf2f67d203d308741d3ad67f162019fa5c81c7f01d2d9287.png" title="Shooper clicks on //div[@id='laptopsImg']" width="1280"/>
+                <img src="6aeafe6201c69f8cdb4ce60420d62ec7eb75052b19733c763bfa80d08bb5bd39.png" title="Shooper clicks on //div[@id='laptopsImg']" width="1280"/>
+                <img src="0fa680246697187407aefe3ba5892db94fdce85f1963407c5ea280237741d8ab.png" title="Shooper clicks on //h4[@id='accordionPrice']" width="1280"/>
+                <img src="42c1b5526435c28017b6fb2510f28801c2986701a2f236d1fedddd99fedd8f24.png" title="Shooper clicks on //h4[@id='accordionPrice']" width="1280"/>
+                <img src="48708a5de2ed77de25a8790877a169945799d6a621a0d9b2b4fc82f2a7b3f66c.png" title="Shooper clicks on price slider" width="1280"/>
+                <img src="d1491917c6bd8ba4f2865a87c083df7fa56987519fd8f2fe041f77e4477ea0ae.png" title="Shooper clicks on price slider" width="1280"/>
+                <img src="1cdaad68bda60b89bd2ac3b0b0bf767a9a5a3ee342f3864c7b0f75f592c7b715.png" title="Shooper clicks on //h4[@id='accordionAttrib0']" width="1280"/>
+                <img src="562789fe97c6dac26f2f58ea214468c106db994063d9883b6092ec867fc4d717.png" title="Shooper clicks on //h4[@id='accordionAttrib0']" width="1280"/>
+                <img src="d9b3686ab922e3df72a14d25c2698aea3e0bc26e425810a48dcf95150894161c.png" title="Shooper clicks on //input[@id='display_2']" width="1280"/>
+                <img src="b56cc93594bccf7689fc719f847bf621057c8ce157506acb84596ce1c3c74baf.png" title="Shooper clicks on //input[@id='display_2']" width="1280"/>
+                <img src="4fbc1cafa526b20ecb2357ad5c90505cdc6fd4739421aaca066901af1dcc8990.png" title="Shooper clicks on //h4[@id='accordionAttrib0']" width="1280"/>
+                <img src="bca4dd5725a6978b3684d56798ff315d65ad29d33ed0509bb044426891b21397.png" title="Shooper clicks on //h4[@id='accordionAttrib0']" width="1280"/>
+                <img src="ceda602b94fb32d215e2f58a9b468bcf236e7035d048b52aab4939985685d9ba.png" title="Shooper clicks on //h4[@id='accordionAttrib1']" width="1280"/>
+                <img src="00db41dcf04a57f36c1d24e59c38672cb2f01706f0a59ff3e8db16f473427e0a.png" title="Shooper clicks on //h4[@id='accordionAttrib1']" width="1280"/>
+                <img src="9bd633203c4636cb4a663e51465008aab4335fc1789dd1e6e23774c0930b3f13.png" title="Shooper clicks on //input[@id='operating_system_1']" width="1280"/>
+                <img src="ea19a60f0f01422300942c525d4bed9cf25e17562bfb9e9fb32d0cac3f3d3d67.png" title="Shooper clicks on //input[@id='operating_system_1']" width="1280"/>
+                <img src="ea19a60f0f01422300942c525d4bed9cf25e17562bfb9e9fb32d0cac3f3d3d67.png" title="Shooper clicks on //h4[@id='accordionAttrib1']" width="1280"/>
+                <img src="106891f4c5984a1e9768380f7b9955e0c70080d0506cb4170528d33552927149.png" title="Shooper clicks on //h4[@id='accordionAttrib1']" width="1280"/>
+                <img src="ceda602b94fb32d215e2f58a9b468bcf236e7035d048b52aab4939985685d9ba.png" title="Shooper clicks on //h4[@id='accordionAttrib2']" width="1280"/>
+                <img src="6f7b25ae34fffdb67aab7d746b2697c99abd09433c22c7602c3b7ec7c6ba2476.png" title="Shooper clicks on //h4[@id='accordionAttrib2']" width="1280"/>
+                <img src="f71ef0dc45ba7cc9d5c7a7ae79ec5f61b58ce016a5c94dfeec0a1c5dc6f1d129.png" title="Shooper clicks on //input[@id='processor_8']" width="1280"/>
+                <img src="e55f524aa8b80420e1ae27f5172a52241259b5acc8670efd7f6b90a901444e03.png" title="Shooper clicks on //input[@id='processor_8']" width="1280"/>
+                <img src="e55f524aa8b80420e1ae27f5172a52241259b5acc8670efd7f6b90a901444e03.png" title="Shooper clicks on //h4[@id='accordionAttrib2']" width="1280"/>
+                <img src="154d9b29b6888e3e0dd7909115e1271440208d10110674fd911f7eb1224865da.png" title="Shooper clicks on //h4[@id='accordionAttrib2']" width="1280"/>
+                <img src="c1b2d1ed042b46deab540a68bd21a7d75dc6499d64ab5203a801584abc1787c9.png" title="Shooper clicks on //h4[@id='accordionColor']" width="1280"/>
+                <img src="01f98e2f41415ff5b2cf4a04451a5796da56d5b30a28f34282a473289e489f06.png" title="Shooper clicks on //h4[@id='accordionColor']" width="1280"/>
+                <img src="536255cf972082cfc6382d98920fa4ab063a36f8a7e03361cb863f2987cc2c23.png" title="Shooper clicks on //a[@id='productsColorsC3C3C3']" width="1280"/>
+                <img src="d9afa6d132a6757f0b797f14a3baca35ffb7315ed0afa0145289fdd1ef61230c.png" title="Shooper clicks on //a[@id='productsColorsC3C3C3']" width="1280"/>
+                <img src="d9afa6d132a6757f0b797f14a3baca35ffb7315ed0afa0145289fdd1ef61230c.png" title="Shooper clicks on //img[@id='4']" width="1280"/>
+                <img src="539b5564f1caa05d371895945f15e2b244975a3ee5a9b6353a3e57901686dacc.png" title="Shooper clicks on //img[@id='4']" width="1280"/>
+                <img src="ac946d6705965ea17c9855c2d0eb0312fffff1160c77da75a8a2310586d62589.png" title="Shooper enters '2' into quantity" width="1280"/>
+                <img src="7c8a58f39829f81827fd6da16f95d47813101d6b2d6d18c689ab5c1a4c90f448.png" title="Shooper enters '2' into quantity" width="1280"/>
+                <img src="ca9bbb0ef88c2d0174c40b55e9ad45bd9d7ff6a2b232c4e61d28d8826f4a74f0.png" title="Shooper clicks on add to cart" width="1280"/>
+                <img src="348c8ecf41074c944c7f43f8ffda67bca58bf4b791e6361b072938224dd6974a.png" title="Shooper clicks on add to cart" width="1280"/>
+                <img src="34c6b93bab36023cc93fb8e697f63bbdc569cfed9c9837859b0ba930a011fb21.png" title="Shooper clicks on menu cart" width="1280"/>
+                <img src="70e9dbca15796f9799279290fed7be8bc715f173d4a3db5057394397ac8c47a0.png" title="Shooper clicks on menu cart" width="1280"/>
+                <img src="129b6a8c435bfb0b25872747c91b3afc0771eca4a796da4c4cbf3771ce89c6e4.png" title="Then the product is bought
+| safepayuser | safepaypass |
+| joselito | Joselito123 |" width="1280"/>
+                <img src="597a3e23bb044502e64320260edc676319938fb6f885814b632e2e50e294da76.png" title="Then the product is bought
+| safepayuser | safepaypass |
+| joselito | Joselito123 |" width="1280"/>
+                <img src="129b6a8c435bfb0b25872747c91b3afc0771eca4a796da4c4cbf3771ce89c6e4.png" title="Then the product to buy should be equalToIgnoringCase('Thank you for buying with Advantage')" width="1280"/>
+                <img src="597a3e23bb044502e64320260edc676319938fb6f885814b632e2e50e294da76.png" title="Then the product to buy should be equalToIgnoringCase('Thank you for buying with Advantage')" width="1280"/>
+                <img src="129b6a8c435bfb0b25872747c91b3afc0771eca4a796da4c4cbf3771ce89c6e4.png" title="Shooper clicks on checkout button" width="1280"/>
+                <img src="d93b852d49f00a902971eee7f8f8141f31528c7c5dbdb689a9a7ae57c9491542.png" title="Shooper clicks on checkout button" width="1280"/>
+                <img src="b947e9bbdc1f2fd1d57fbc218b7ca882328e28e29eddf0523e3d1012915e2127.png" title="Shooper clicks on payment next button" width="1280"/>
+                <img src="7b189ca1456aed4e10798422e6edd8c7d3f53a80dbe2fd39683e0bf35b8f556a.png" title="Shooper clicks on payment next button" width="1280"/>
+                <img src="7b189ca1456aed4e10798422e6edd8c7d3f53a80dbe2fd39683e0bf35b8f556a.png" title="Shooper enters 'joselito' into payment safepay name" width="1280"/>
+                <img src="36046574d2826903a8fa9a2c8e3246e666fe8ee45fe46378a39c8d17a617e70e.png" title="Shooper enters 'joselito' into payment safepay name" width="1280"/>
+                <img src="fc860e3863622d85eeefed9108925d15b36ef4a586101663736305fcb17e6381.png" title="Shooper enters 'Joselito123' into payment safepay password" width="1280"/>
+                <img src="a5b57cbbd4f2073a75107a76e3a980c2636e36592fda7e6b0bbb19fd69ef72d5.png" title="Shooper enters 'Joselito123' into payment safepay password" width="1280"/>
+                <img src="36c6fa73066f55001b6a767d83c9752520818d305bcb39f52eae226f5224cf55.png" title="Shooper clicks on payment now button" width="1280"/>
+                <img src="ccfa292b0b9f65332379365d71ff60c54e1ba94010fe42f64ef88c5cd83c9970.png" title="Shooper clicks on payment now button: <span class='success-color'>SUCCESS</span>" width="1280"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.7</span>
+</div>
+</body>
+</html>

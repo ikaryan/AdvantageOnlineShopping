@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">"Project Advantage Online Shopping"</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_making_a_purchase.html">Making A Purchase</a></span>
+                > <span class="truncate-60"><a
+                    href="making-a-purchase_creating-access-for-a-new-user.html">Creating access for a new user </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-03-2020 21:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Making A Purchase </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I as user
+I need to buy a product in Advantage Online Shopping website
+and check the payment has been made successfully
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Creating access for a new user
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e56d862d9ac6a592242330ad2564fc8ecf2986591db07cb5f5d6cc50c41dfbf7.png" title="Given a new user needs access to buy a new product
+| user | password |
+| karlo | Karlox123 |" width="1280"/>
+                <img src="ef19222c25109348230f7b2bde59b97754ede733e192f5ead924815a124317bf.png" title="Shooper opens the https://www.advantageonlineshopping.com/#/" width="1280"/>
+                <img src="bc5ac28a3c522f19e5973f3545e24b7f2b5650e01eb5e04937001ae0aadb60d9.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="7a07d4137a98d2cfe8866cdce08195422b39558f16de6bf79823253827f574e1.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="e7b271a73b6a8410a6d8100d459b930afe8d53af53cc4a29a96d874ec41270cb.png" title="Shooper enters 'karlo' into user name login" width="1280"/>
+                <img src="ddb9db2852dc601cdb101b4aaa20e4e57b5fee8b4bd413a00069713bca0a8474.png" title="Shooper enters 'karlo' into user name login" width="1280"/>
+                <img src="cf4882a754f1db05d6ef77d6bdac00771933b8c22cf38526cb94e16e7eb65f00.png" title="Shooper enters 'Karlox123' into user password login" width="1280"/>
+                <img src="ddaab1ac89aca047b4eb2793e86f6aca7ec566e4fa74843f77e24f839f7d163c.png" title="Shooper enters 'Karlox123' into user password login" width="1280"/>
+                <img src="2a2731ff234fdd8526167d83f40170f169cced3486b4df695c6c8eb22ea0ca95.png" title="Shooper clicks on user sign in button" width="1280"/>
+                <img src="2f1a4909a2708ff1344d42560413de571d3c01b561d6cf07295b3c9936fe12c1.png" title="Shooper clicks on user sign in button" width="1280"/>
+                <img src="2f1a4909a2708ff1344d42560413de571d3c01b561d6cf07295b3c9936fe12c1.png" title="Shooper clicks on create new account button" width="1280"/>
+                <img src="8333741a39aae98568927964533e5a88f80c30a76cfab04e07e1dfaddfc1514f.png" title="Shooper clicks on create new account button" width="1280"/>
+                <img src="8860a4bbd245d656d4b7631b22007d50c3c51357dacf2e4d7c7fa02ffc7d9457.png" title="When the user is not registered and require being created
+| userName | email | password | firstName | lastName | phoneNumber | country | city | address | state | postalCode |
+| Charles | karlox@advantage.com | Karlox123++ | Karlox | Ortiz | 45268978 | Colombia | Envigado | Av 33 # 15-36 | Antioquia | 5002356 |" width="1280"/>
+                <img src="d99a1b116837bc4f9c4d2b81a4f0aa003fd6e916c7b0b515d7d4208cccb78a2b.png" title="Shooper enters 'Charles' into user name" width="1280"/>
+                <img src="cb2cc887a1c760e8f41d9a7cb44ab54432b2ea2fcc53a373c6769277373cb6d4.png" title="Shooper enters 'karlox@advantage.com' into user email" width="1280"/>
+                <img src="5aef549230c44d2d2a814b7584a5facbcf64bb2e596dfaac27a25e98d1571d7e.png" title="Shooper enters 'karlox@advantage.com' into user email" width="1280"/>
+                <img src="dc5e2ae250754f94e4deb30bed44e67cd128f066258f13bd31f293ed3e3146d5.png" title="Shooper enters 'Karlox123++' into user password" width="1280"/>
+                <img src="a2aca98755f0d5c84ef2c67b8555d3f0060f07397b3cc01831d3871d05090880.png" title="Shooper enters 'Karlox123++' into user password" width="1280"/>
+                <img src="0e4e7629a4a4d6235418c24fefd51affdeb39405422e2c56f07b563a63fd617e.png" title="Shooper enters 'Karlox123++' into user confirm password" width="1280"/>
+                <img src="2310d87f13085f961dfee97e155c9f524fbc89e77967f1ce5a36f0998e8eb919.png" title="Shooper enters 'Karlox123++' into user confirm password" width="1280"/>
+                <img src="7622e4acfd9db4e5ce501454244126fdd2a8df9ae4c778c67bcd164c870e861d.png" title="Shooper enters 'Karlox' into user first name" width="1280"/>
+                <img src="97848a012435e50fc3255c0f427f09b1a5e4f29b43604bfc9e84b0a65d07cb99.png" title="Shooper enters 'Karlox' into user first name" width="1280"/>
+                <img src="effb80d1504c697f696853cd1d73c3a7781f6f139ffc0eeed165d830d2fcf511.png" title="Shooper enters 'Ortiz' into user last name" width="1280"/>
+                <img src="3508b4c4b1d3e2a6c8c1ad6988df46154cea15259c1300ae69cf2cd92682ca28.png" title="Shooper enters 'Ortiz' into user last name" width="1280"/>
+                <img src="8e026f2fb83592e0548f5d7e24528e6f50b8e8711b6ced287b92eb1d1f7cc74f.png" title="Shooper enters '45268978' into user phone number" width="1280"/>
+                <img src="db092037074701069ab791a9b05f5495e31fcbf9d1dfbf553df4722aa61522e1.png" title="Shooper enters '45268978' into user phone number" width="1280"/>
+                <img src="31a01d2cfa3729bc29429905e9dadea9e4f10d637cd0f31896b7d4e75264ce81.png" title="Shooper select Colombia on user country" width="1280"/>
+                <img src="dd0cedbe0f199fb2c35f61351a603a0c2bc565c4b4918361451e30f9e2680bf3.png" title="Shooper select Colombia on user country" width="1280"/>
+                <img src="dd0cedbe0f199fb2c35f61351a603a0c2bc565c4b4918361451e30f9e2680bf3.png" title="Shooper enters 'Envigado' into user city" width="1280"/>
+                <img src="28b45ee0b9eea0fb873bb35be8a8079b2b355ebd9d51127419d87a7726950984.png" title="Shooper enters 'Envigado' into user city" width="1280"/>
+                <img src="288c2a0348819343e408ca8e74c61c77bb10e2bbbf8bdd2045aeb8c61da760dc.png" title="Shooper enters 'Av 33 # 15-36' into user address" width="1280"/>
+                <img src="bd717772081bddebbadb19486e51d5fea27ea835c15e42146fc2254bb4c0792f.png" title="Shooper enters 'Av 33 # 15-36' into user address" width="1280"/>
+                <img src="2e811bc17b90baca7b37862b45d317fb0c17c807be9a1400f28a25e3666a7f3e.png" title="Shooper enters 'Antioquia' into user state" width="1280"/>
+                <img src="ad2a621200532b7ef588df1fb595eddc63a2b63a99444d85a99fbf337ceb2f0f.png" title="Shooper enters 'Antioquia' into user state" width="1280"/>
+                <img src="ec0f4a70b69b2d96a504734c025fcf8af4097c4bd0d5dc146cf140375bbb436c.png" title="Shooper enters '5002356' into user postal code" width="1280"/>
+                <img src="ccf6cd07e54099360b661cb5e8b9bcdd6aef8c983538e425b6c74b3bee2831da.png" title="Shooper enters '5002356' into user postal code" width="1280"/>
+                <img src="3e74c739dd976cc765fc2001438683c16caff73fdc69abf93dd55f3b3ef9943c.png" title="Shooper clicks on i agree button" width="1280"/>
+                <img src="21faba271b31cf3f3440b81d62773dd872a068948aa27b72b5e15f8865506a5d.png" title="Shooper clicks on i agree button" width="1280"/>
+                <img src="702f9090505b1fd1e0335e8e7eccf73c3ee3fac5a8874937744583285d5a52c0.png" title="Shooper clicks on user register button" width="1280"/>
+                <img src="a9fe0f94d0f996aadfb9b976efa74175b139644e1e22fd4928294d5a92e7e138.png" title="Shooper clicks on user register button" width="1280"/>
+                <img src="172d6319c6a5ad50cf2f67d203d308741d3ad67f162019fa5c81c7f01d2d9287.png" title="Then the new user is created successfully" width="1280"/>
+                <img src="79d264f5d12d5c4cd3978ff642877034a19048fe7553075b6eaf3fcd662cfcf7.png" title="Then the new user is created successfully" width="1280"/>
+                <img src="172d6319c6a5ad50cf2f67d203d308741d3ad67f162019fa5c81c7f01d2d9287.png" title="Then the reply message should be equalToIgnoringCase('Charles')" width="1280"/>
+                <img src="172d6319c6a5ad50cf2f67d203d308741d3ad67f162019fa5c81c7f01d2d9287.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="9ecd09822e2c16d8b1365f66da950a4bab15746185162645914fd3f92dcc40c2.png" title="Shooper clicks on user icon" width="1280"/>
+                <img src="2d5dbef90fa409d924de8538837fae85dfb7b66ee1878208ffd0a3cc4410cdf9.png" title="Shooper clicks on user sign in button" width="1280"/>
+                <img src="467337e72c48c5c6f1c18a27ea62ec916f718c7e49b7dab825f27e6637413c00.png" title="Shooper clicks on user sign in button: <span class='success-color'>SUCCESS</span>" width="1280"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.7</span>
+</div>
+</body>
+</html>
